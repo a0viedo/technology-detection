@@ -1,0 +1,22 @@
+{
+  "name": "technology-detection",
+  "version": "1.0.0",
+  "description": "Get the used technologies on a website",
+  "main": "index.js",
+  "bin": {
+    "technology-detection": "bin/technology-detection"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tecnology",
+    "detection"
+  ],
+  "author": "Alejandro Oviedo <alejandro.oviedo.g@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cli-spinner": "^0.2.10",
+    "is-url": "^1.2.4"
+  }
+}
